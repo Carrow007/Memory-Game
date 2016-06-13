@@ -30,7 +30,7 @@ p{
 
 
 
-.board {
+#board {
 	height: 50%;
 	width: 50%;
 	overflow:hidden;

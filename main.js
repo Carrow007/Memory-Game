@@ -4,7 +4,7 @@ var cards = ['queen', 'queen', 'king', 'king'];
 var cardsInPlay = [];
 
 
-var board = document.getElementById('game-board');
+var board = document.getElementById('board');
 
 function createBoard() {
  
