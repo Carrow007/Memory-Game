@@ -31,11 +31,11 @@ function isTwoCards() {
 
 	console.log(this.getAttribute('data-card'));
 	if (this.getAttribute('data-card') === 'king') {
-		this.innerHTML = "<img src='http://i.imgur.com/bnuv5Im.png'>"; 
+		this.innerHTML = "<img src='http://i.imgur.com/u1af9Sl.png'>";
 	} else {
-		this.innerHTML = "<img src='http://i.imgur.com/v6buNt2.png'>"; 
+		this.innerHTML = "<img src='http://i.imgur.com/bfxuIzc.png'>";
 	}
- 
+  
   if (cardsInPlay.length === 2) {
     
     isMatch(cardsInPlay);
@@ -45,7 +45,7 @@ function isTwoCards() {
 }
 
 function isMatch(cards) {
- 
+  
   if (cards[0] === cards[1]) {
     alert("You found a match!");
   } else {
